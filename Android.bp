@@ -134,6 +134,7 @@ cc_library {
     defaults: ["libxml2-defaults"],
     vendor_available: true,
     product_available: true,
+    ota_recovery_ramdisk_available: true,
     host_supported: true,
     target: {
         android: {
