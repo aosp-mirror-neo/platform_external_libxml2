@@ -15,14 +15,15 @@ third_party {
     tag: "NVD-CPE2.3:cpe:/a:xmlsoft:libxml2:2.9.2:-"
   }
   last_upgrade_date {
-    year: 2025
-    month: 9
-    day: 29
+    year: 2026
+    month: 6
+    day: 25
   }
   homepage: "http://www.xmlsoft.org/"
   identifier {
     type: "Git"
-    value: "https://github.com/GNOME/libxml2/"
-    version: "2f62ebb3a7ef5a988e36cb48d66ea0d5f630c402"
+    value: "https://github.com/GNOME/libxml2/tree/2.15"
+    version: "c94eb0210183b9d7cb43f8e7fddc6be55843ef49"
+    closest_version: "v2.15.3"
   }
 }
