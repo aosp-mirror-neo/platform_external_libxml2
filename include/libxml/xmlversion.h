@@ -16,28 +16,28 @@
 /**
  * the version string like "1.2.3"
  */
-#define LIBXML_DOTTED_VERSION "2.16.0"
+#define LIBXML_DOTTED_VERSION "2.15.3"
 
 /**
  * the version number: 1.2.3 value is 10203
  */
-#define LIBXML_VERSION 21600
+#define LIBXML_VERSION 21503
 
 /**
  * the version number string, 1.2.3 value is "10203"
  */
-#define LIBXML_VERSION_STRING "21600"
+#define LIBXML_VERSION_STRING "21503"
 
 /**
  * extra version information, used to show a git commit description
  */
-#define LIBXML_VERSION_EXTRA "-GITv2.15.0-1352-g0c56291e3"
+#define LIBXML_VERSION_EXTRA "-GITv2.15.3-1354-g7e84d39b"
 
 /**
  * Macro to check that the libxml version in use is compatible with
  * the version the software has been compiled against
  */
-#define LIBXML_TEST_VERSION xmlCheckVersion(21600);
+#define LIBXML_TEST_VERSION xmlCheckVersion(21503);
 
 #if 1
 /**
